@@ -22,6 +22,9 @@ int main(void){
 //range-based for loop
 for(int e : v1)
     cout << e << ' ';
+   //int e  : v1이라고 하면 복사된 값이 e에 들어감. v1에 영향x
+//in &e : v1이리ㅏ고 하면 원본이 e에 들어감.
+
 //not bad
 for(int i  = 0; i < v1.size(); i++)
     cout << v1[i] << ' ';
