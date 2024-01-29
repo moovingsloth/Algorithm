@@ -1,2 +1,1 @@
-in >> arr[i];
-    cin >> X;
+#include <bits/stdc++.h>
