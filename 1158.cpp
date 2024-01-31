@@ -72,7 +72,7 @@ public:
             int removedData = removeKthNode(k);
             cout << removedData;
             if (i != n - 1) {
-                cout << ", ";
+                cou t << ", ";
             }
         }
         cout << ">" << endl;
