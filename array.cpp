@@ -17,7 +17,7 @@ int main(void){
     int len = 6;
     insert(3, 60, arr, len);
     for(int i = 0; i < 6; i++) cout << arr[i] << " ";
-    cout << '|n';
+    cout << '\n';
     erase(4, arr, len);
     for(int i = 0; i < 5; i++) cout << arr[i] << " ";
 
