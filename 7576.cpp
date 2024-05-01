@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 //초록 토마토  queue에 넣고 BFS 돌리기
+
+//전역변수를 초기화하지 않으면 0으로 채워짐
 int board[1002][1002];
 int dist[1002][1002];
 int n, m;
