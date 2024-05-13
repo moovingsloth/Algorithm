@@ -14,4 +14,3 @@ int main(){
         if(result == 0) {cout << 10 << endl;}
         else{cout << result << '\n';}
     }
-}
